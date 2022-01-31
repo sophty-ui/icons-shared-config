@@ -52,20 +52,21 @@ ignorePatterns:
       'coverage/',
       'docs/',
       'example/',
+      'lib/scripts/',
       'media/',
       'node_modules/',
       'src/',
       'tsconfig.json',
       'typings/',
     ]
-  '.eslintignore': ['__generated__', 'lib']
+  '.eslintignore': ['__generated__', 'lib', '*.svg']
   '.prettierignore': ['lib/', '/src/**/__generated__']
 
 executableFiles: ['.husky/commit-msg', '.husky/pre-commit']
 
 scripts:
   'build': 'npm-run-all build:prepare build:extract build:generate build:ts'
-  'build:ts': 'tsc'
+  'build:ts': 'rimraf lib && tsc --extendedDiagnostics'
   'build:extract': 'node --experimental-specifier-resolution=node node_modules/.bin/figma-portal extract -d src/icons -p GitHub -f sophty -c .figma.icons.yml'
   'build:generate': 'node --experimental-specifier-resolution=node --loader ts-node/esm ./src/scripts/build.ts'
   'build:prepare': 'rimraf src/icons src/components/__generated__'
@@ -74,7 +75,7 @@ scripts:
   'generate:ghinfo': 'node --experimental-specifier-resolution=node node_modules/.bin/ghinfo generate -d media -t utils'
   'generate:media': 'node --experimental-specifier-resolution=node node_modules/.bin/figma-portal extract -d media -f sophty -p GitHub'
   'lint': 'npm-run-all lint:*'
-  'lint:eslint': 'rimraf coverage && eslint "src/**" --ext .ts'
+  'lint:eslint': 'eslint "src/**" --ext .ts'
   'prepare': 'npm-run-all prepare:*'
   'prepare:config': 'node --experimental-specifier-resolution=node node_modules/.bin/icons-shared-config'
   'prepare:husky': 'husky install'
