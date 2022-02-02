@@ -1,6 +1,6 @@
 # :bug: Bug Fixes
 
-- Fix Logo and Banner components names [`bbd5030`](https://github.com/Sophty-UI/icons-shared-config/commit/bbd50301841d81650a227304f61f5adacc658c7d)
+- Fix release workflow action job [`ea449c4`](https://github.com/Sophty-UI/icons-shared-config/commit/ea449c47271c234d5f9e6c58265c25dc9c4d14d3)
 
 ---
 
