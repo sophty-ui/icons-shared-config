@@ -1,7 +1,6 @@
 # :bug: Bug Fixes
 
-- Fix tsconfig includes [`3d33eed`](https://github.com/Sophty-UI/icons-shared-config/commit/3d33eedeaeeb2c0b352e160cccd3e3b7cfe6daa2)
-- Fix scripts, add lib/scripts to .npmignore [`664f22c`](https://github.com/Sophty-UI/icons-shared-config/commit/664f22cc7a128abafacd2a0ba3583590d7e04dee)
+- Add ENV to build and release actions [`88ebaea`](https://github.com/Sophty-UI/icons-shared-config/commit/88ebaeac584cd1f917b7e4d719c8eb7f166d93b6)
 
 ---
 
