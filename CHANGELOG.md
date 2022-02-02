@@ -1,6 +1,6 @@
 # :bug: Bug Fixes
 
-- Add ENV to build and release actions [`88ebaea`](https://github.com/Sophty-UI/icons-shared-config/commit/88ebaeac584cd1f917b7e4d719c8eb7f166d93b6)
+- Add .figma.icons.yml config to .npmignore [`6d17560`](https://github.com/Sophty-UI/icons-shared-config/commit/6d17560c092887b0a267dfcaaddaf8fade392853)
 
 ---
 
