@@ -1,6 +1,6 @@
 # :bug: Bug Fixes
 
-- Add .figma.icons.yml config to .npmignore [`6d17560`](https://github.com/Sophty-UI/icons-shared-config/commit/6d17560c092887b0a267dfcaaddaf8fade392853)
+- Fix Logo and Banner components names [`bbd5030`](https://github.com/Sophty-UI/icons-shared-config/commit/bbd50301841d81650a227304f61f5adacc658c7d)
 
 ---
 
