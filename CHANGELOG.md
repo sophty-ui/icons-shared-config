@@ -1,26 +1,6 @@
-# Important Changes
+# :bug: Bug Fixes
 
-## Dependencies
-
-<details>
-<summary>Dependencies</summary>
-
-- Changed **[standard-shared-config](https://www.npmjs.com/package/standard-shared-config)** from `^4.0.11` to `^4.0.14`
-
-</details>
-
-<details>
-<summary>Dev Dependencies</summary>
-
-- Changed **[@tagproject/base-shared-config](https://www.npmjs.com/package/@tagproject/base-shared-config)** from `^2.1.0` to `^2.2.2`
-- Changed **[@tagproject/docs-shared-config](https://www.npmjs.com/package/@tagproject/docs-shared-config)** from `^1.0.1` to `^1.0.4`
-- Changed **[@tagproject/vscode-shared-config](https://www.npmjs.com/package/@tagproject/vscode-shared-config)** from `^1.2.2` to `^1.2.5`
-- Changed **[changelog-guru](https://www.npmjs.com/package/changelog-guru)** from `^4.0.2` to `^4.0.5`
-- Changed **[cspell](https://www.npmjs.com/package/cspell)** from `^5.18.0` to `^5.19.5`
-- Changed **[prettier](https://www.npmjs.com/package/prettier)** from `^2.5.1` to `^2.6.2`
-- Bumped **[figma-portal](https://www.npmjs.com/package/figma-portal)** from `^0.11.0` to `^1.0.1`
-
-</details>
+- Remove test build step in build & release actions [`79068cd`](https://github.com/Sophty-UI/icons-shared-config/commit/79068cd8a233957c224c29da0cbe4cee0d4e6233)
 
 ---
 
