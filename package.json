@@ -3,7 +3,7 @@
   "version": "1.0.7",
   "description": "Shared config for @sophty-ui/icons",
   "license": "MIT",
-  "homepage": "https://github.com/Sophty-UI/icons-shared-config#readme",
+  "homepage": "https://github.com/sophty-ui/icons-shared-config#readme",
   "author": {
     "name": "Daniil Ryazanov",
     "email": "kein@tagproject.ru"
@@ -17,7 +17,7 @@
     "standard",
     "ts"
   ],
-  "bugs": "https://github.com/Sophty-UI/icons-shared-config/issues",
+  "bugs": "https://github.com/sophty-ui/icons-shared-config/issues",
   "types": "./lib/index.d.ts",
   "type": "module",
   "exports": "./lib/index.js",
@@ -26,7 +26,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Sophty-UI/icons-shared-config.git"
+    "url": "git+https://github.com/sophty-ui/icons-shared-config.git"
   },
   "engines": {
     "node": "^14.13.1 || >=16.0.0"
