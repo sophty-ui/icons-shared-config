@@ -1,6 +1,6 @@
 # :bug: Bug Fixes
 
-- Fix generate/prepare build [`8e05f89`](https://github.com/sophty-ui/icons-shared-config/commit/8e05f895343fc0ab7790f8b15bbd1faf20995c44)
+- Fix build action [`c9f526f`](https://github.com/sophty-ui/icons-shared-config/commit/c9f526f45a3d8d829c7306cfa864450c992a75f1)
 
 ---
 
