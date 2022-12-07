@@ -45,7 +45,7 @@
     "release": "npm-run-all prepare lint build generate"
   },
   "dependencies": {
-    "standard-shared-config": "^4.0.18"
+    "standard-shared-config": "^4.1.0"
   },
   "devDependencies": {
     "@tagproject/base-shared-config": "^3.3.5",
