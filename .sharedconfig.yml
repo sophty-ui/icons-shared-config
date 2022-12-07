@@ -77,8 +77,10 @@ scripts:
 
 dependencies:
   - '@tagproject/docs-shared-config': '1.x'
-  - '@tagproject/vscode-shared-config': '1.X'
+  - '@tagproject/vscode-shared-config': '2.X'
+  - "@types/react": '18.x'
   - '@typescript-eslint/eslint-plugin': '5.x'
+  - '@typescript-eslint/parser': '5.x'
   - 'changelog-guru'
   - 'eslint': '8.x'
   - 'eslint-config-prettier': '8.x'
@@ -95,6 +97,11 @@ dependencies:
   - 'ts-node': '10.x'
   - 'typescript': '4.x'
 
+
+
 package:
   manager: 'npm'
   type: 'module'
+  peerDependencies:
+    'react': '18.x'
+    'react-dom': '18.x'
