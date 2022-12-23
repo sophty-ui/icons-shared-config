@@ -2,6 +2,7 @@ sharedDir: '.config'
 outputDir: 'lib'
 
 mergeRules:
+  '.vscode/cspell.json': ['words', 'ignorePaths']
   '.gitignore': true
   '.npmignore': true
 
@@ -21,6 +22,7 @@ ignorePatterns:
       '/.husky/',
       '/src/**/__generated__',
       '/tsconfig.json',
+      '/tsconfig.lib.json',
       'coverage',
       'lib',
       'logs',
@@ -54,6 +56,7 @@ ignorePatterns:
       'node_modules/',
       'src/',
       'tsconfig.json',
+      'tsconfig.lib.json',
       'typings/',
     ]
   '.eslintignore': ['__generated__', 'lib', '*.svg']
@@ -96,8 +99,6 @@ dependencies:
   - 'rimraf'
   - 'ts-node': '10.x'
   - 'typescript': '4.x'
-
-
 
 package:
   manager: 'npm'
