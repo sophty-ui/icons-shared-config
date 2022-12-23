@@ -22,6 +22,7 @@ ignorePatterns:
       '/.husky/',
       '/src/**/__generated__',
       '/tsconfig.json',
+      '/tsconfig.lib.json',
       'coverage',
       'lib',
       'logs',
@@ -55,6 +56,7 @@ ignorePatterns:
       'node_modules/',
       'src/',
       'tsconfig.json',
+      'tsconfig.lib.json',
       'typings/',
     ]
   '.eslintignore': ['__generated__', 'lib', '*.svg']
