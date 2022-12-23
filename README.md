@@ -37,6 +37,7 @@ npm install @sophty-ui/icons-shared-config --save-dev
 
 ### merge files:
 
+- `.vscode/cspell.json`
 - `.gitignore`
 - `.npmignore`
 
