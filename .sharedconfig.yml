@@ -2,6 +2,7 @@ sharedDir: '.config'
 outputDir: 'lib'
 
 mergeRules:
+  '.vscode/cspell.json': ['words', 'ignorePaths']
   '.gitignore': true
   '.npmignore': true
 
@@ -96,8 +97,6 @@ dependencies:
   - 'rimraf'
   - 'ts-node': '10.x'
   - 'typescript': '4.x'
-
-
 
 package:
   manager: 'npm'
