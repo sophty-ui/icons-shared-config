@@ -104,8 +104,8 @@ package:
   type: 'module'
   types: './lib/index.d.ts'
   exports:
-    ".": "./index.js"
-    "./theme.css": "./assets/theme.css"
+    ".": "./lib/index.js"
+    "./theme.css": "./lib/assets/theme.css"
   peerDependencies:
     'clsx': '^1.x'
     'react': '18.x'
