@@ -66,7 +66,7 @@ executableFiles: ['.husky/commit-msg', '.husky/pre-commit']
 
 scripts:
   'build': 'npm-run-all build:generate build:ts'
-  'build:ts': 'rimraf lib && tsc --extendedDiagnostics'
+  'build:ts': 'rimraf lib && tsc -p tsconfig.lib.json --extendedDiagnostics && copyfiles -f src/assets/**/* lib/assets'
   'build:generate': 'rimraf src/components/__generated__ && node --loader ts-node/esm ./src/scripts/build.ts'
   'generate': 'npm-run-all generate:*'
   'generate:changelog': 'changelog generate --bump'
@@ -104,5 +104,6 @@ package:
   manager: 'npm'
   type: 'module'
   peerDependencies:
+    'clsx': '^1.x'
     'react': '18.x'
     'react-dom': '18.x'
