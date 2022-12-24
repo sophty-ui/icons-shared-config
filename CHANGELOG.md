@@ -1,6 +1,10 @@
 # :bug: Bug Fixes
 
-- Remove vscode configs [`87e01e8`](https://github.com/sophty-ui/icons-shared-config/commit/87e01e83b9db906d96ae09a1e3bc1e5d55295258)
+- Fix package exports [`2a5e55a`](https://github.com/sophty-ui/icons-shared-config/commit/2a5e55a7a7b77ccbf2921ddba2242e16829460ec)
+
+# :memo: Internal changes
+
+- Remove vscode/* `mergeRules` [`1bac464`](https://github.com/sophty-ui/icons-shared-config/commit/1bac46466ea89851bd5defe5fca2b48edf000962)
 
 ---
 
