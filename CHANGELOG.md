@@ -1,6 +1,6 @@
-# :fire: Improvements
+# :bug: Bug Fixes
 
-- Add copyfiles pkg for assets copy [`77a6918`](https://github.com/sophty-ui/icons-shared-config/commit/77a6918056f27f629dceeb590952b8bb3b162e50)
+- Fix cspell, fix linting, fix exports [`d89f803`](https://github.com/sophty-ui/icons-shared-config/commit/d89f803d3ec1b8bcbd835d0914292a543e0e459b)
 
 ---
 
