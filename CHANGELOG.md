@@ -1,6 +1,6 @@
 # :bug: Bug Fixes
 
-- Fix cspell, fix linting, fix exports [`d89f803`](https://github.com/sophty-ui/icons-shared-config/commit/d89f803d3ec1b8bcbd835d0914292a543e0e459b)
+- Remove vscode configs [`87e01e8`](https://github.com/sophty-ui/icons-shared-config/commit/87e01e83b9db906d96ae09a1e3bc1e5d55295258)
 
 ---
 
