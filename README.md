@@ -59,25 +59,26 @@ npm install @sophty-ui/icons-shared-config --save-dev
 
 #### dependencies:
 
-- [@tagproject/docs-shared-config](https://www.npmjs.com/package/@tagproject/docs-shared-config): `1.x`
-- [@tagproject/vscode-shared-config](https://www.npmjs.com/package/@tagproject/vscode-shared-config): `2.x`
+- [@tagproject/docs-shared-config](https://www.npmjs.com/package/@tagproject/docs-shared-config): `3.x`
+- [@tagproject/vscode-shared-config](https://www.npmjs.com/package/@tagproject/vscode-shared-config): `4.x`
 - [@types/react](https://www.npmjs.com/package/@types/react): `18.x`
-- [@typescript-eslint/eslint-plugin](https://www.npmjs.com/package/@typescript-eslint/eslint-plugin): `5.x`
-- [@typescript-eslint/parser](https://www.npmjs.com/package/@typescript-eslint/parser): `5.x`
+- [@typescript-eslint/eslint-plugin](https://www.npmjs.com/package/@typescript-eslint/eslint-plugin): `7.x`
+- [@typescript-eslint/parser](https://www.npmjs.com/package/@typescript-eslint/parser): `7.x`
 - [changelog-guru](https://www.npmjs.com/package/changelog-guru): `latest`
 - [eslint](https://www.npmjs.com/package/eslint): `8.x`
-- [eslint-config-prettier](https://www.npmjs.com/package/eslint-config-prettier): `8.x`
+- [eslint-config-prettier](https://www.npmjs.com/package/eslint-config-prettier): `9.x`
 - [eslint-plugin-import](https://www.npmjs.com/package/eslint-plugin-import): `2.x`
 - [eslint-plugin-jest](https://www.npmjs.com/package/eslint-plugin-jest): `27.x`
 - [eslint-plugin-node](https://www.npmjs.com/package/eslint-plugin-node): `11.x`
 - [eslint-plugin-optimize-regex](https://www.npmjs.com/package/eslint-plugin-optimize-regex): `1.x`
+- [eslint-plugin-promise](https://www.npmjs.com/package/eslint-plugin-promise): `6.x`
 - [eslint-plugin-react](https://www.npmjs.com/package/eslint-plugin-react): `7.x`
 - [eslint-plugin-react-hooks](https://www.npmjs.com/package/eslint-plugin-react-hooks): `4.x`
 - [ghinfo](https://www.npmjs.com/package/ghinfo): `latest`
-- [husky](https://www.npmjs.com/package/husky): `8.x`
+- [husky](https://www.npmjs.com/package/husky): `9.x`
 - [rimraf](https://www.npmjs.com/package/rimraf): `latest`
 - [ts-node](https://www.npmjs.com/package/ts-node): `10.x`
-- [typescript](https://www.npmjs.com/package/typescript): `4.x`
+- [typescript](https://www.npmjs.com/package/typescript): `5.x`
 
 #### configure:
 
