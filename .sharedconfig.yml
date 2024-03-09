@@ -78,14 +78,14 @@ scripts:
   'release': 'npm-run-all prepare build lint generate'
 
 dependencies:
-  - '@tagproject/docs-shared-config': '1.x'
-  - '@tagproject/vscode-shared-config': '2.X'
+  - '@tagproject/docs-shared-config': '3.x'
+  - '@tagproject/vscode-shared-config': '4.X'
   - "@types/react": '18.x'
-  - '@typescript-eslint/eslint-plugin': '5.x'
-  - '@typescript-eslint/parser': '5.x'
+  - '@typescript-eslint/eslint-plugin': '7.x'
+  - '@typescript-eslint/parser': '7.x'
   - 'changelog-guru'
   - 'eslint': '8.x'
-  - 'eslint-config-prettier': '8.x'
+  - 'eslint-config-prettier': '9.x'
   - 'eslint-plugin-import': '2.x'
   - 'eslint-plugin-jest': '27.x'
   - 'eslint-plugin-node': '11.x'
@@ -94,10 +94,10 @@ dependencies:
   - 'eslint-plugin-react': '7.x'
   - 'eslint-plugin-react-hooks': '4.x'
   - 'ghinfo'
-  - 'husky': '8.x'
+  - 'husky': '9.x'
   - 'rimraf'
   - 'ts-node': '10.x'
-  - 'typescript': '4.x'
+  - 'typescript': '5.x'
 
 package:
   manager: 'npm'
@@ -107,6 +107,6 @@ package:
     ".": "./lib/index.js"
     "./theme.css": "./lib/assets/theme.css"
   peerDependencies:
-    'clsx': '^1.x'
+    'clsx': '^2.x'
     'react': '18.x'
     'react-dom': '18.x'
