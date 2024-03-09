@@ -85,6 +85,11 @@ npm install @sophty-ui/icons-shared-config --save-dev
 ```json
 {
   "type": "module",
+  "types": "./lib/index.d.ts",
+  "exports": {
+    ".": "./lib/index.js",
+    "./theme.css": "./lib/assets/theme.css"
+  },
   "peerDependencies": {
     "clsx": "1.x",
     "react": "18.x",
