@@ -4,10 +4,7 @@
   "description": "Shared config for @sophty-ui/icons",
   "license": "MIT",
   "homepage": "https://github.com/sophty-ui/icons-shared-config#readme",
-  "author": {
-    "name": "Daniil Ryazanov",
-    "email": "kein@tagproject.ru"
-  },
+  "author": "Daniil Ryazanov <kein@tagproject.ru>",
   "keywords": [
     "config",
     "icons",
@@ -33,28 +30,28 @@
   },
   "scripts": {
     "build": "standard-shared-config build",
-    "generate": "npm-run-all generate:*",
+    "generate": "run-s generate:*",
     "generate:changelog": "changelog generate --bump",
-    "lint": "npm-run-all lint:*",
+    "lint": "run-s lint:*",
     "lint:spell": "cspell -c .vscode/cspell.json --no-summary \"**/*.{js,ts,tsx,md,yml,json}\"",
-    "prepare": "npm-run-all prepare:*",
+    "prepare": "run-s prepare:*",
     "prepare:config": "base-shared-config",
     "prepare:docs": "docs-shared-config",
     "prepare:husky": "husky install",
     "prepare:vscode": "vscode-shared-config",
-    "release": "npm-run-all prepare lint build generate"
+    "release": "run-s prepare lint build generate"
   },
   "dependencies": {
-    "standard-shared-config": "^4.1.0"
+    "standard-shared-config": "^5.1.2"
   },
   "devDependencies": {
-    "@tagproject/base-shared-config": "^3.3.5",
-    "@tagproject/docs-shared-config": "^1.1.2",
-    "@tagproject/vscode-shared-config": "^2.0.5",
-    "changelog-guru": "^4.0.9",
-    "cspell": "^6.18.0",
-    "husky": "^8.0.2",
+    "@tagproject/base-shared-config": "^4.0.6",
+    "@tagproject/docs-shared-config": "^3.0.4",
+    "@tagproject/vscode-shared-config": "^4.0.4",
+    "changelog-guru": "^5.0.2",
+    "cspell": "^8.6.0",
+    "husky": "^9.0.11",
     "npm-run-all": "^4.1.5",
-    "prettier": "^2.8.1"
+    "prettier": "^3.2.5"
   }
 }
