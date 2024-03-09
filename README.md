@@ -64,7 +64,7 @@ npm install @sophty-ui/icons-shared-config --save-dev
 - [@types/react](https://www.npmjs.com/package/@types/react): `18.x`
 - [@typescript-eslint/eslint-plugin](https://www.npmjs.com/package/@typescript-eslint/eslint-plugin): `7.x`
 - [@typescript-eslint/parser](https://www.npmjs.com/package/@typescript-eslint/parser): `7.x`
-- [changelog-guru](https://www.npmjs.com/package/changelog-guru): `latest`
+- [changelog-guru](https://www.npmjs.com/package/changelog-guru): `5.x`
 - [eslint](https://www.npmjs.com/package/eslint): `8.x`
 - [eslint-config-prettier](https://www.npmjs.com/package/eslint-config-prettier): `9.x`
 - [eslint-plugin-import](https://www.npmjs.com/package/eslint-plugin-import): `2.x`

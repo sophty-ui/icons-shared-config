@@ -42,16 +42,35 @@
     "release": "run-s prepare lint build generate"
   },
   "dependencies": {
-    "standard-shared-config": "^5.1.2"
+    "standard-shared-config": "5.x"
   },
   "devDependencies": {
-    "@tagproject/base-shared-config": "^4.0.6",
-    "@tagproject/docs-shared-config": "^3.0.4",
-    "@tagproject/vscode-shared-config": "^4.0.4",
-    "changelog-guru": "^5.0.2",
-    "cspell": "^8.6.0",
-    "husky": "^9.0.11",
-    "npm-run-all": "^4.1.5",
-    "prettier": "^3.2.5"
+    "@tagproject/base-shared-config": "4.x",
+    "@tagproject/docs-shared-config": "3.x",
+    "@tagproject/vscode-shared-config": "4.x"
+  },
+  "peerDependencies": {
+    "@tagproject/docs-shared-config": "3.x",
+    "@tagproject/vscode-shared-config": "4.x",
+    "@types/jest": "*",
+    "@types/node": "*",
+    "@types/react": "18.x",
+    "@typescript-eslint/eslint-plugin": "7.x",
+    "@typescript-eslint/parser": "7.x",
+    "changelog-guru": "5.x",
+    "eslint": "8.x",
+    "eslint-config-prettier": "9.x",
+    "eslint-plugin-import": "2.x",
+    "eslint-plugin-jest": "27.x",
+    "eslint-plugin-node": "11.x",
+    "eslint-plugin-optimize-regex": "1.x",
+    "eslint-plugin-promise": "6.x",
+    "eslint-plugin-react": "7.x",
+    "eslint-plugin-react-hooks": "4.x",
+    "ghinfo": "*",
+    "husky": "9.x",
+    "rimraf": "*",
+    "ts-node": "10.x",
+    "typescript": "5.x"
   }
 }
